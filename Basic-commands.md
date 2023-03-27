@@ -22,6 +22,15 @@ displays detailed information about the specified pod. The grep command is used 
 
 is a command used to retrieve the configuration of a specific Kubernetes resource in YAML format.
 
+**Delete** - remove resources from the cluster.
+- `kubectl delete -f <file.yaml>`
+- `kubectl delete <pod / deployment / service / namespace / configmap / secret / job / cronjob / node > <name>`
+
+is a command used to delete Kubernetes resources defined in the specified YAML file.
+
+- `kubectl delete <pod / deployment.apps / svc / rs / configmaps / secret>--all`
+<span style="color:red">** Caution **is a command used to delete all resources of the specified type in the current Kubernetes cluster. ** Caution **</span>
+
 **Echo -n**
 - `echo -n <word> | base64`
 - `echo -n <encode word> | base64 -d`
