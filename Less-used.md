@@ -24,4 +24,9 @@ is a command used to update the image of the container named nginx running in a 
 
 is a command used to scale the number of replicas in a Kubernetes ReplicaSet named <replicaset-name>
   
-**f**
+**Rollout** - is the process of updating the state of a Kubernetes object, such as a Deployment or StatefulSet, by creating a new replica set and gradually replacing the existing replica set with the new one.
+  
+- `kubectl rollout undo <pod / deployment.apps / svc / rs>   <name of pod / deployment.apps / svc / rs>  --to-revision=0`
+- `kubectl rollout <history / restart / pause / resume / annotate / edit> <pod / deployment.apps / svc / rs>   <name of pod / deployment.apps / svc / rs>`
+
+is a command used to rollback a Kubernetes resource to a specific revision. The --to-revision flag is used to specify the revision number, which can be obtained using the kubectl rollout history
