@@ -1,7 +1,7 @@
 Less used commend
 =================
 
-**Namespace** - 
+**Namespace** - used to create a virtual cluster within a physical cluster, allowing for resource separation and management of objects.
 - `kubens <name>`
 - `kubens <create / delete / describe > namespace <name>`
 - `kubens get <pod / deployments / services > --namespace=<name>`
