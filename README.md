@@ -1,5 +1,7 @@
 # Kubernetes useful commands
 
+see all commands / description / exmaples in the md files
+
 Basic commands:
 ==============
 
