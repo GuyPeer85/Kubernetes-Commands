@@ -1,23 +1,27 @@
 Less used commands:
----------------
+-------------------
 
 **Apply**
+
 - `kubectl apply -f <file.yaml>`
 - `kubectl apply -f <file.yaml> -n <name>`
 
 is used to apply the configuration specified in the YAML file to a Kubernetes cluster, creating or updating resources as necessary
 
 **Edit**
+
 - `kubectl edit <pod / deployment.apps / svc / rs> <name of pod / deployment.apps / svc / rs>`
 
 opens the current configuration of a pod in an editor for modification, allowing changes to be made and saved back to the cluster. The changes can be made to the pod specification, such as its containers, volumes, labels, annotations, etc.
 
 **Describe**
+
 - `kubectl describe <pod / deployment.apps / svc / rs> <name of pod / deployment.apps / svc / rs> | grep <name (like image)>`
 
 displays detailed information about the specified pod. The grep command is used to filter the output of the kubectl describe command, allowing the user to find specific information, such as the image name, associated with the pod.
 
 **Get**
+
 - `kubectl get <pod / deployment.apps / svc / rs / configmaps / secret / pv / pvc / events>  <name of pod / deployment.apps / svc / rs / configmaps / secret  / pv / pvc> -o yaml`
 
 is a command used to retrieve the configuration of a specific Kubernetes resource in YAML format.
