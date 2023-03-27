@@ -29,7 +29,7 @@ is a command used to retrieve the configuration of a specific Kubernetes resourc
 is a command used to delete Kubernetes resources defined in the specified YAML file.
 
 - `kubectl delete <pod / deployment.apps / svc / rs / configmaps / secret>--all`
-<span style="color:red">**Caution**is a command used to delete all resources of the specified type in the current Kubernetes cluster. **Caution**</span>
+<span style="color:red">**Caution!!** is a command used to delete all resources of the specified type in the current Kubernetes cluster. **Caution!!**</span>
 
 **Echo -n**
 - `echo -n <word> | base64`
