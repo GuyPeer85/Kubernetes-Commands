@@ -1,5 +1,3 @@
-# Kubernetes useful commands
-
 Basic commands:
 ---------------
 
