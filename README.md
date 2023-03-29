@@ -2,6 +2,9 @@
 
 See all commands / description / exmaples in the md files
 
+***All commands come from the docker documentation [https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands] 
+(There are more commands; I put the most common ones)***
+
 Basic commands:
 ==============
 
